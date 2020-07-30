@@ -1,17 +1,14 @@
-<!DOCTYPE html>
 <html>
 <head>
 <title>FindMind Analytics</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
 <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-<link rel="icon" href="img/OL.svg" type="image/x-icon"/>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+<link rel="icon" href="img/logo.jpg" type="image/x-icon"/>
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/materialize.min.css"> 
-
+<link rel="stylesheet" href="css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 <style>
 body
 {
@@ -55,27 +52,27 @@ body
 </style>
 </head>
 <body>
-<div class="navbar-fixed" style="position:fixed;top:0;width:100%;font-family: 'Poppins', sans-serif;">
+<div class="navbar-fixed">
     <nav style="height:65px;width:100%;background-color:#17105D;box-shadow:none;">
         <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo left" style="font-size:20px;"><img src="img/OL.svg" class="logo" alt="logo" style="height:30px;margin-left:10px;" /><span style="margin-left:10px;">FindMind Analytics</span></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons"><i class="lni-menu" style="color:white;"></i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#top" style="color:white;margin-right:15px;font-size:20px;font-weight:bold;font-style:normal;">Home</a></li>
+          <a href="#!" class="brand-logo left" style="font-size:20px;"><img src="img/OL.svg" class="logo" alt="logo" style="height:30px;margin-left:10px;" /><span style="margin-left:10px;">FindMind Analytics</span></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="lni-menu" style="color:white;"></i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#top" style="color:white;margin-right:15px;font-size:20px;font-weight:bold;font-style:normal;">Home</a></li>
                 <li><a href="#about" style="color:white;margin-right:15px;font-size:20px;font-weight:bold;font-style:normal;">About Us</a></li>
                 <li><a href="#services" style="color:white;margin-right:15px;font-size:20px;font-weight:bold;font-style:normal;">Services</a></li>
-                <!-- <li><a href="#footer" style="color:white;margin-right:15px;font-size:20px;font-weight:bold;font-style:normal;">Book Now</a></li> -->
                 <li><a href="#footer" style="color:white;margin-right:15px;font-size:20px;font-weight:bold;font-style:normal;">Contact</a></li>
-            </ul>
+          </ul>
         </div>
     </nav>
 </div>
-<ul class="sidenav" id="mobile-demo" style="font-style:normal;font-family: 'Poppins', sans-serif;">
-    <li><a class="sidenav-close" href="#top">Home</a></li>
-    <li><a class="sidenav-close" href="#about">About Us</a></li>
-    <li><a class="sidenav-close" href="#services">Services</a></li>
-    <li><a class="sidenav-close" href="#footer">Contact</a></li>
+<ul class="sidenav" id="mobile-demo">
+    <li><a href="#top">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#footer">Contact</a></li>
 </ul>
+
 <div class="jumbotron-fluid">
 
 
@@ -148,14 +145,14 @@ body
         <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/legalmind.gif" style="width:150px;height:100px;margin:20px auto;">
+                  <img class="activator" src="img/legalmind.gif" style="width:200px;height:100px;margin:20px auto;">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4" style="font-style:normal;">LegalMind<i class="material-icons right">more_vert</i></span>
+                  <span class="card-title activator grey-text text-darken-4" style="font-style:normal;">FinLit<i class="material-icons right">more_vert</i></span>
                   <p><a href="#">This is a link</a></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4" style="font-style:normal;">Card Title<i class="material-icons right">close</i></span>
+                  <span class="card-title grey-text text-darken-4" style="font-style:normal;"> Card Title<i class="material-icons right">close</i></span>
                   <p>Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
               </div>
@@ -235,6 +232,12 @@ body
         <div class="col-12"><div style="color:white;text-align:center;margin-top:20px;"><i class="far fa-copyright" aria-hidden="true"></i><span style="margin-left:5px;">FindMind Analytics PVT LTD</span></div></div>
     </div>            
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
 var elems = document.querySelectorAll('.sidenav');
@@ -242,9 +245,6 @@ var instances = M.Sidenav.init(elems, {edge:'right'});
 });
     
 </script>
-<script src="js/materialize.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="js/bootstrap.js"></script>
+
 </body>
 </html>
