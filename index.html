@@ -4,11 +4,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
-<link rel="icon" href="img/logo.jpg" type="image/x-icon"/>
+<link rel="icon" href="img/OL.svg" type="image/x-icon"/>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/materialize.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
 <style>
 body
 {
@@ -43,6 +44,16 @@ body
 .section 
 {
     display: none;
+}
+.social-icon
+{
+    display:inline-block;
+    text-align:center;
+    margin-left:20px;
+}
+input::placeholder
+{
+    padding:5px;
 }
 @media (max-width:898.98px) {
 
@@ -88,7 +99,7 @@ body
         <div class="col-12"><div style="text-align:center;color:white;font-size:25px;margin-top:40px;">BUILDING TECHNOLOGIES </div></div>
     
         <div class="col-12"><div style="text-align:center;color:white;font-size:20px;margin-top:20px;">THAT BENEFITS EVERYONE</div></div>
-        <di class="col-12"><div style="border-bottom:4px solid #4aa3c1;width:50%;margin:auto auto;margin-top:15px;"></div></di>
+        <div class="col-12"><div style="border-bottom:4px solid #4aa3c1;width:50%;margin:auto auto;margin-top:15px;"></div></div>
         <div class="col-1"></div>
         <div class="col-10"><div style="color:white;font-size:20px;margin-top:40px;text-align:center;">We use the state of the art technologies like Artificial Intelligence, Machine Learning and NSDT to make smarter intelligent and affordable solutions.</div></div>
         <div class="col-1"></div>
@@ -137,6 +148,7 @@ body
         <div class="col-lg-5 col-xs-12 col-md-12 col-sm-12">
             <div class="row">
                 <div class="col-12"><div style="text-align:left;font-size:20px;padding:20px;">We are offering</div></div>
+                <div class="col-12"><div style="border-bottom:2px solid #28c0f3;width:30%;margin-top:5px;margin-left:20px;"></div></div>
                 <div class="col-12"><div style="font-size:20px;text-align:justify;margin-top:20px;padding:20px;">Providing good quality customer experience and support is as important and pivotal as providing top grade product or service to our customers. Our target is to assist businesses in achieving growth, transformation, and fulfilling their business requirements with the utmost satisfaction. Android App development, APIaaS, Machine Learning services,data analytics services, data scraping,video & image processing, object detection,natural language processing and the like are our services.</div> </div>
             </div>
         </div>
@@ -223,8 +235,9 @@ body
                 <div class="col-12">
                     <div style="color:white;margin-top:40px;text-align: center;"><i class="lni-envelope" style="font-size:25px;margin-top:20px;padding:10px;"></i>support@findmind.in</div>
                 </div>
-                <div class="col-12">
-                    <div style="color:white;text-align: center;margin-top:40px;"><i class="lni-linkedin-original" style="color:white;font-size:50px;"></i></div>
+                <div class="col-12" style="text-align: center;margin-top:20px;">
+                    <a class="social-icon" href="https://www.linkedin.com/company/findmindanalytics/"><i class="lni-linkedin-original" style="color:white;font-size:40px;"></i></a>
+                    <a class="social-icon" href="https://medium.com/team-legalmind/findmind-analytics-2477c3860535"><i class="lni lni-medium" style="color:white;font-size:40px;"></i></a>
                     
                 </div>
             </div>
@@ -232,18 +245,10 @@ body
         <div class="col-lg-6 col-xs-12">
             <div class="form" style="padding:20px;margin-top:20px;">
                 <form class="form" style="width:80%;margin-top:10px;margin:auto auto;">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Name...">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Your Email...">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" placeholder="Your Message..." rows="3"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary" style="width:40%;">Submit</button>
-                    </div>
+                   <input type="text" placeholder="Your Name...">
+                   <input type="text" placeholder="Your Email...">
+                   <textarea name="message" id="" cols="30" rows="30" placeholder="Your Message..." style="padding:10px;height:100px;"></textarea>
+                   <button type="submit" class="btn" style="margin-top:20px;">Submit</button>
                 </form>
             </div>
         </div>
